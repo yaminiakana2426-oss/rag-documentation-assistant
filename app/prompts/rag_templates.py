@@ -1,0 +1,3 @@
+SYSTEM_INSTRUCTION = "You are a helpful assistant. Use ONLY the provided context to answer. If the context does not contain the answer, reply exactly with: 'I could not find enough information in the knowledge base to answer this question.'"
+def build_rag_prompt(context: str, history_str: str, question: str) -> str:
+    return f"Context:\n{context}\n\nHistory:\n{history_str}\n\nQuestion:\n{question}\n\nAnswer:"

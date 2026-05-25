@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Reset Password Instruction",
+    "content": "To reset your password, navigate to Settings > Security and click on 'Reset Password'. You will receive an automated verification code via your registered email address. Enter this code within 10 minutes to set up a new password."
+  },
+  {
+    "title": "Account Deletion Policy",
+    "content": "Users can permanently delete their account by visiting Account Settings > Danger Zone > Delete Account. Please note that account deletion is completely irreversible. All your stored profile data, logs, and transaction invoices will be permanently wiped out from our databases after 30 days."
+  },
+  {
+    "title": "API Rate Limits",
+    "content": "The production tier API allows up to 60 requests per minute per user identity. Exceeding this limit triggers an HTTP 429 'Too Many Requests' response block. Rates reset automatically at the start of every sliding 60-second window."
+  },
+  {
+    "title": "Refund and Billing Rules",
+    "content": "Refund requests must be formally submitted within 14 business days of initial transaction completion via billing@trueailab.com. Submissions after 14 days are ineligible for structural cashback reimbursements, but can be converted into standard platform credits."
+  }
+]
